@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Team profile cards</title>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="{% static 'img/cartoon2.jpg' %}" alt="Profile image">
+        </div>
+        <p class="name">Yesha Rana</p>
+        <p>UX / UI developer</p>
+        <p>In this time  where many countries are facing recession, we are looking to provide an opportunity to fill out the gap between job aplicant and company.</p>
+    </div>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="{% static 'img/cartoon3.png' %}" alt="Profile image">
+        </div>
+        <p class="name">Vikram Patel</p>
+        <p>Back-End developer</p>
+        <p>On our job portal, job applicant can get their desired job with the very smooth recruitment process.And company can get their efficient workers</p>
+    </div>
+
+    
+</body>
+</html>

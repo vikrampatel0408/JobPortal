@@ -109,3 +109,6 @@ class LogoutView(RedirectView):
         auth.logout(request)
         messages.success(request, 'You are now logged out')
         return super(LogoutView, self).get(request, *args, **kwargs)
+    
+def Aboutview(request):
+    return render(request,'About.html')
